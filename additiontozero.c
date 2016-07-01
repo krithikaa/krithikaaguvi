@@ -1,14 +1,14 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main()
 {
- unsigned int a[5],i,n,j;
- clrscr();
+ unsigned int i,n,j;
+ scanf("%d",&n);
+ unsigned int a[n];
  for(i=0;i<5;i++)
  {
   scanf("%d",&a[i]);
  }
- n=5;
  for(i=0;i<n;i++)
  {
   for(j=0;j<n;j++)
@@ -21,5 +21,4 @@ void main()
    }
   }
  }
- getch();
 }
